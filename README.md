@@ -1,26 +1,63 @@
-## Overview
+# SmartShop - E-Commerce Application
 
-**SmartShop** is an e-commerce web application store. 
-The website is built using Spring Boot for server side and Angular, Typescript and bootstrap for client side. It connects to a MySQL database.
+## 🚀 [Video Demo](https://drive.google.com/file/d/1SjZIevcSebYJPZ6wJRV1J4cuMmXBxj8e/view?usp=drive_link)
 
-- ### View demonstration of the application  [here](https://drive.google.com/file/d/1SjZIevcSebYJPZ6wJRV1J4cuMmXBxj8e/view?usp=drive_link). See how it works!
+A full-stack e-commerce platform with cart management and order history tracking. Built with **Spring Boot, Angular, and MySQL**. Features secure Okta OAuth 2.0 authentication and Stripe payment integration.
 
+---
 
-### Client Side:
+## 📖 Overview
 
-  - **Login Page**: Allows users to log in with their Okta credentials in order to see all their transactions.
-  - **Books/Coffee Mags/Mouse pads/Luggage Tags  Pages**: Different deparments in store where you can view all product and add them to cart
-  - **Search Button**: Allow users to filter products by keywords. 
-  - **Logout/ Member/ Orders Buttons (logged users only)**: buttons that allows you to logout, check discounts for members and view all your orders.
-  - **Cart icon**: direct you to a checkout form.
-  
-### Server Side:
-The server side handles two main responsibilities:
-- Stores and retrieves data: Manages products, users, orders, and payments.
-- Handles checkout and payments: Processes orders and validates payment information.
+SmartShop is an online store where users can browse products across multiple departments (Books, Coffee Mugs, Mouse Pads, Luggage Tags), manage their shopping cart, and complete secure checkout with payment processing. Track your order history and enjoy member-exclusive discounts.
 
-### Installation:
-- create yout okta acount for registration [here](https://developer.okta.com/login/).
-- open the Server-Side and run it from file **SpringBootEcommerceApplication**.
-- open the Client-Side and run the command **npm start -- --configuration=qa**. You should see the app running on https://localhost:4200.
+---
 
+## ✨ Key Features
+
+- **Okta OAuth 2.0 Authentication**: Secure login and user management
+- **Shopping Cart Management**: Add, update, and remove items from cart
+- **Multi-Department Store**: Browse Books, Coffee Mugs, Mouse Pads, and Luggage Tags
+- **Advanced Search**: Filter products by keywords across all departments
+- **Stripe Payment Integration**: Secure payment processing
+- **Order History Tracking**: View all past orders and transactions
+- **Member Discounts**: Exclusive benefits for registered members
+- **Checkout Form**: Complete purchase flow with payment validation
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**: Angular, TypeScript, Bootstrap  
+**Backend**: Java, Spring Boot  
+**Database**: MySQL  
+**Authentication**: Okta OAuth 2.0  
+**Payments**: Stripe API
+
+---
+
+## 🚀 Installation
+
+Want to run it locally? Here's how:
+
+**1. Set up Okta account**
+- Create your Okta account [here](https://developer.okta.com/login/)
+
+**2. Run the Server**
+```bash
+# Navigate to Server-Side folder
+# Run SpringBootEcommerceApplication file
+```
+
+**3. Run the Client**
+```bash
+# Navigate to Client-Side folder
+npm start -- --configuration=qa
+```
+
+That's it! The app will open at `https://localhost:4200`
+
+**Note**: Requires Java, Node.js, MySQL, and Okta/Stripe API credentials
+
+---
+
+⭐ **If you'd like to see the code, feel free to reach out!**
